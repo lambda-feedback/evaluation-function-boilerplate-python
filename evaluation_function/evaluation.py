@@ -31,5 +31,5 @@ def evaluation_function(
 
     return Result(
         is_correct=response == answer,
-        simplified=response,
+        feedback=f"The answer is {response == answer}"
     )
