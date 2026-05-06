@@ -102,10 +102,6 @@ shimmy -c "python" -a "-m" -a "evaluation_function.main" -i ipc
 ### Repository Structure
 
 ```bash
-.github/workflows/
-    build.yml                           # builds the public evaluation function image
-    deploy.yml                          # deploys the evaluation function to Lambda Feedback
-
 evaluation_function/main.py             # evaluation function entrypoint
 evaluation_function/evaluation.py       # evaluation function implementation
 evaluation_function/evaluation_test.py  # evaluation function tests
