@@ -2,6 +2,10 @@
 
 This repository contains the boilerplate code needed to create a containerized evaluation function written in Python.
 
+## Deployment
+[![Create Release Request](https://img.shields.io/badge/Create%20Release%20Request-blue?style=for-the-badge)](https://github.com/lambda-feedback/{REPO_NAME_HERE}/issues/new?template=release-request.yml)
+To deploy to production, update the README button above to point to the correct repository.
+
 ## Quickstart
 
 This chapter helps you to quickly set up a new Python evaluation function using this template repository.
@@ -98,10 +102,6 @@ shimmy -c "python" -a "-m" -a "evaluation_function.main" -i ipc
 ### Repository Structure
 
 ```bash
-.github/workflows/
-    build.yml                           # builds the public evaluation function image
-    deploy.yml                          # deploys the evaluation function to Lambda Feedback
-
 evaluation_function/main.py             # evaluation function entrypoint
 evaluation_function/evaluation.py       # evaluation function implementation
 evaluation_function/evaluation_test.py  # evaluation function tests
