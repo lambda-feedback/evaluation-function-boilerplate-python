@@ -113,7 +113,7 @@ config.json                             # evaluation function deployment configu
 
 ### Development Workflow
 
-In its most basic form, the development workflow consists of writing the evaluation function in the `evaluation_function.wl` file and testing it locally. As long as the evaluation function adheres to the Evaluation Function API, a development workflow which incorporates using Shimmy is not necessary.
+In its most basic form, the development workflow consists of writing the evaluation function in the `evaluation_function/evaluation.py` file and testing it locally. As long as the evaluation function adheres to the Evaluation Function API, a development workflow which incorporates using Shimmy is not necessary.
 
 Testing the evaluation function can be done by running the `dev.py` script using the Python interpreter like so:
 
